@@ -124,7 +124,7 @@
         <p>提供有特色的产品批发方式。形状多样，随心定做。口感多样，创新传统零食。产品列表：大米球（童年经典小吃）、大米饼、大米棒、大米块、 江米球、江米饼、江米棒、 小米饼、小米棒、小米块、麦仁球、麻片<p>
     </div>
         <div class="row">
-            {{#get "posts" limit="6" filter="tag:products" as |arti-pics pages|}}
+            {{#get "posts" limit="16" filter="tag:products" as |arti-pics pages|}}
 {{#foreach arti-pics}}
 <div class="col-xs-3 col-md-2 image-detail">{{content words="0"}}
 <h5><a title="{{date format="YYYY-MM-DD"}}" href="{{url}}" class="product-title">{{{title}}}</a></h5>
