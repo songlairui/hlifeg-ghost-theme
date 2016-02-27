@@ -4,9 +4,9 @@ section#line1 {font-size: 12px;}
 span.date{display:inline-block;padding:0 0.6em;color:gray;font-size: .8em;}
 span.title{display: inline-block;width: 240px;}
 .image-detail{text-align: center}
-section#production .image-detail img{width:145px;    border-radius: 12px;}
+section#production .image-detail img{width:145px;    border-radius: 12px;vertical-align: bottom;}
 section#production .image-detail h2{font-size: 30px;padding:10px 0 0;margin:0;color:#2AAAEC;font-weight: bold;}
-section#production .image-detail p{margin:0;padding:0;font-size: 14px}
+section#production .image-detail p{margin:0;padding:0;font-size: 14px;height:150px;}
 section#production h4{font-size: 18px}
 section#production p{padding: 20px 0;margin:0;}
 section#production ul{overflow: hidden;margin:0;padding:0;}
