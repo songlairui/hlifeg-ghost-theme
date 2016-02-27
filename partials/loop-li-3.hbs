@@ -1,0 +1,4 @@
+{{! This is the post loop - each post will be output using this markup }}
+{{#foreach posts}}
+<li><a href="{{url}}"><span class="date">{{date format="MM-DD"}}</span><span class="title">{{{title}}}</span></a></li>
+{{/foreach}}

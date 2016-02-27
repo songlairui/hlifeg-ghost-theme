@@ -1,0 +1,62 @@
+body{font-family: "Microsoft YaHei UI","Helvetica Neue", Helvetica, Arial, sans-serif}
+header .carousel .carousel-inner img{height:250px;width:100%}
+section#line1 {font-size: 12px;}
+span.date{display:inline-block;padding:0 0.6em;color:gray;font-size: .8em;}
+span.title{display: inline-block;width: 240px;}
+.image-detail{text-align: center}
+section#production .image-detail img{width:145px;    border-radius: 60px;}
+section#production .image-detail h2{font-size: 30px;padding:10px 0 0;margin:0;color:#2AAAEC;font-weight: bold;}
+section#production .image-detail p{margin:0;padding:0;font-size: 14px}
+section#production h4{font-size: 18px}
+section#production p{padding: 20px 0;margin:0;}
+section#production ul{overflow: hidden;margin:0;padding:0;}
+section#production ul ul{overflow: visible;margin:1.6em;padding:0;}
+section#production ul li.left,section#production ul li.right{margin:0;padding:0;overflow:hidden;list-style:none;float:left;display: block;width: 45%;font-size:12px;line-height: 30px;}
+section#production ul li.right{float:none}
+section#production ul li li{list-style-type: disc;}
+section#production .row{margin:20px auto;}
+.container{
+    min-width:910px;}
+section .inner h4 {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 5px solid #0A8FD5;
+}
+section#feature .col-md-3 {text-align: center}
+section#feature .division {
+    width: 1px;
+    height: 47px;
+    position: absolute;
+    right: 3px;
+    top: 32px;
+    background: #cacaca;
+}
+section#feature p.feature-title{    padding-top: 5px;
+    font-size: 16px;margin-bottom: 0;}
+section#feature p.feature-content{font-size: 12px;
+    text-align: left;
+    padding: 25px;}
+
+/* #news ul,#news ul li {list-style: none;margin:0;padding:0}*/
+section#news p{font-size:16px;}
+section#news a.more{float: right;margin-top:-35px;}
+section#news ul.news-col-ul{overflow: hidden}
+section#news li.news-col-li{float: left;width: 100%;}
+section#news li li{line-height: 30px;font-size:14px;}
+section#news li li .date{font-size: 1em;padding:0 10px 0 0}
+
+footer {    margin-top: 20px;
+    background: #fff;
+    border-top: 1px solid #ddd;}
+#news ul,#news ul li,footer ul,footer ul li{list-style: none;margin:0;padding:0}
+footer .col-md-2{margin-top: 20px;padding: 18px 15px;}
+footer .col-md-2 ul.link li{font-size: 14px;line-height: 30px;}
+footer .col-md-2 ul.link li a{font-size: 12px;
+    color: #6891AF;}
+footer .title{padding: 5px 0;
+    color: #6891AF;}
+.copyright{color: #337ab7;
+    border-top: 1px dashed #337ab7;text-align: center;line-height: 50px;
+    margin: 18px auto 0;}
+
+.mb15{margin-bottom: 15px;}
