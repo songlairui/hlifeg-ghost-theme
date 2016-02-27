@@ -138,6 +138,21 @@
 </section>
 <section id="production">
     <div class="container">
+
+        <div class="row">
+            {{#get "posts" limit="6" filter="tag:products" as |arti-pics pages|}}
+{{#foreach arti-pics}}
+<div class="col-xs-3 col-md-2 image-detail">
+
+
+
+<a title="{{date format="YYYY-MM-DD"}}" href="{{url}}" class="title">{{content words="0"}}<h2>{{{title}}}</h2></a>
+                <p> {{excerpt}} </p></div>
+    {{/foreach}} 
+{{/get}}
+            
+
+        </div>
         <div class="row">
             <div class="col-xs-5 col-md-5 image-detail"><a href="//www.hlifeg.com/rice-ball-picture/"><img src="/content/images/2015/12/damiqiu.jpg" alt="大米球"></a><h2><a href="//www.hlifeg.com/yiying/">大米球</a></h2>
                 <p>童年经典小吃</p></div>
