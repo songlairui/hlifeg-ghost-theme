@@ -1,0 +1,1 @@
+#hlifeg-ghost-theme
