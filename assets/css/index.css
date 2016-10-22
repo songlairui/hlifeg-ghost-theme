@@ -9,7 +9,7 @@ section#production .image-detail img{width:145px;    border-radius: 12px;vertica
 -moz-transition: width .4s; /* Firefox 4 */
 -webkit-transition: width .4s; /* Safari 和 Chrome */
 -o-transition: width .4s; /* Opera */}
-ection#production .image-detail img:hover{width: 95%}
+section#production .image-detail img:hover{width: 95%}
 section#production .image-detail h2{font-size: 30px;padding:10px 0 0;margin:0;color:#2AAAEC;font-weight: bold;}
 section#production .image-detail p{margin:0;padding:0;font-size: 14px;height:140px;line-height: 140px;overflow: hidden;}
 section#production h4{font-size: 18px}
@@ -20,8 +20,8 @@ section#production ul li.left,section#production ul li.right{margin:0;padding:0;
 section#production ul li.right{float:none}
 section#production ul li li{list-style-type: disc;}
 section#production .row{margin:20px auto;}
-.container{
-    min-width:910px;}
+.container-fluid{
+    max-width:1024px;}
 section .inner h4 {
     margin-bottom: 20px;
     padding-left: 10px;
