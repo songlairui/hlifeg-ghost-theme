@@ -73,6 +73,8 @@ footer .title{padding: 5px 0;
 #FixedTopBar{display:none;
     text-align: center;
     transition: opacity 0.6s;
-    line-height: 1.8em;
 }
-#FixedTopBar a{margin:0 auto;}
+#FixedTopBar a{
+    margin: .5em auto;
+    max-width: 320px;
+}
