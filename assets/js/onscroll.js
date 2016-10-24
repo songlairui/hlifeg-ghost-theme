@@ -3,7 +3,7 @@
  */
 (function(){
     var timer=false;
-    var boundary=100;
+    var boundary=162;
     var s = document.getElementById('FixedTopBar').style;
     window.onscroll = function(ev) {
         if(window.scrollY<boundary){
@@ -12,7 +12,7 @@
             timer=setTimeout(
                 function(){
                     (s.display!='none')?s.display='none':null;
-                },400);
+                },600);
             //timer='aa';
             //console.log(timer);
         }else{

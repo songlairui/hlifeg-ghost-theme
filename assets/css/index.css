@@ -70,4 +70,9 @@ footer .title{padding: 5px 0;
     margin: 18px auto 0;}
 
 .mb15{margin-bottom: 15px;}
-#FixedTopBar{display:none;}
+#FixedTopBar{display:none;
+    text-align: center;
+    transition: opacity 0.6s;
+    line-height: 1.8em;
+}
+#FixedTopBar a{margin:0 auto;}
