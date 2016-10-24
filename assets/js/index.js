@@ -54,3 +54,13 @@
 
     };
 })(jQuery);
+/* 将缩略图图片显示成完整图片*/
+(function(){
+    var pool=document.getElementsByClassName('post-content')[0];
+    if(pool){
+        var targets=pool.getElementsByTagName('img');
+        for (var i=0;i<targets.length;i++){
+            targets[i].src=targets[i].src.replace(/\?imageView2\S+/g,'');
+        }
+    }
+})();
