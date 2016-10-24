@@ -155,7 +155,7 @@
             <div class="col-xs-12 col-sm-4 col-md-4 ">
                 <ul class="news-col-ul">
                     <li  class="news-col-li">
-                        <p class="mb15"><a href="/tag/daily/">日常掠影<small>更多>></small></a></p>
+                        <p class="mb15"><a href="/tag/daily/">日常掠影 <small>..更多>></small></a></p>
                         <ul>
 {{#get "posts" limit="6" filter="tag:daily" as |arti-days pages|}}
 {{#foreach arti-days}}
@@ -169,7 +169,7 @@
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <ul class="news-col-ul">
                     <li  class="news-col-li">
-                        <p class="mb15"><a href="/tag/ad-media/">媒体互联<small>更多>></small></a></p>
+                        <p class="mb15"><a href="/tag/ad-media/">媒体互联 <small>..更多>></small></a></p>
 
                         <ul>
 {{#get "posts" limit="6" filter="tag:ad-media" as |ad-medias pages|}}
@@ -252,6 +252,7 @@
 <nav class="navbar navbar-default navbar-fixed-top" id="FixedTopBar">
     <a class="btn btn-lg btn-info btn-block" href="tel:13606356095"><span class="glyphicon glyphicon-earphone"> 13606356095</span> 电话了解</a>
 </nav>
+<div id="scroll2Top"><span class="glyphicon glyphicon-chevron-up"></span></div>
 <script src="{{asset "js/jq11m.js"}}"></script>
 <script src="{{asset "js/bootstrap.min.js"}}"></script>
 <script src="{{asset "js/onscroll.js"}}"></script>
