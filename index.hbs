@@ -6,7 +6,8 @@
     <title>{{meta_title}}</title>
 <meta name="keywords" content="阳谷大米球批发,聊城大米球批发,官方主站,大米球,江米球,花米团,爆米花,玉米通,膨化大米,花喜团,米胖子,糖球,米花球,糯花,米通,麦米球,糯米棒,饼,小米花,饼,块,小食品">
 <meta name="description" content="义英大米球主营:大米球.江米球，花米团，大米花.大米饼.爆米花.玉米花.米通,麦通，花米团，膨化大米（花喜团,糖球.米花球.糯米球.糯米棒.糯米饼.小米花.小米饼.小米块.）专业生产，质量保证;本公司开开食品厂大量批发大米球.大米花.大米饼.爆米花.玉米花。厂长宋义英携全体员工祝各位同仁身体健康,万事如意.站长:宋义英。正宗专业大米球.大米花.大米饼.爆米花.花米团，玉米花.米通,麦通，膨化大米 （花喜团,糖球.米花球.糯米球.糯米棒.糯米饼.小米花.小米饼.小米块.江米球）。义英大米球，绿色好食品，健康好名吃。能量摄入低，口感清脆爽朗。专业生产,保证质量.-- 开开大米球厂">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0"/>
+    <meta name="theme-color" content="#BF3030">
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
     <link rel="stylesheet" type="text/css" href="{{asset "/css/bootstrap.min.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "/css/bootstrap-theme.min.css"}}" />
@@ -14,9 +15,6 @@
     {{ghost_head}}
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top" id="FixedTopBar">
-    <a class="btn btn-lg btn-danger btn-block" href="tel:13606356095"><span class="glyphicon glyphicon-earphone"></span>即刻电话联系</a>
-</nav>
 <nav class="navbar navbar-default">
         <div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -58,9 +56,9 @@
 <div class="container-fluid">
 <header>
      <div class="row">
-       <div class="col-sm-10">
+       <div class="col-sm-10 hero">
               <h1>义英大米球.</h1>
-              <p>聊城大米球批发哪里找？阳谷义英大米球！阳谷大米球批发哪里选？石门宋义英大米球。<br/>开开食品厂大量批发大米球.大米花.大米饼.爆米花.玉米花。引进国外日韩经验，先进设备。把家庭作坊生产发展成为工厂化集约化生产。生产产量大产品质量高。产品销往省内潍坊，东营，滨州，德州，临清，聊城，青岛，烟台。</p>
+              <p>山东大米球批发在这儿！<br>聊城大米球批发在这儿——阳谷义英大米球！<br>阳谷大米球批发在这儿——石门宋义英大米球。<br/>开开食品厂大量批发大米球.大米花.大米饼.爆米花.玉米花。引进国外日韩经验，先进设备。把家庭作坊生产发展成为工厂化集约化生产。生产产量大产品质量高。产品销往省内潍坊，东营，滨州，德州，临清，聊城，青岛，烟台。</p>
               <p><a class="btn btn-lg btn-primary" href="http://www.hlifeg.com/yiying/" role="button">详细</a></p>
         </div>
         <div class="col-sm-2"><div class="row">
@@ -92,14 +90,14 @@
         <div class="row">
             {{#get "posts" limit="16" filter="tag:products" as |arti-pics pages|}}
 {{#foreach arti-pics}}
-<div class="col-xs-6 col-md-2 image-detail">{{content words="0"}}
+<div class="col-xs-6 col-sm-4 col-md-2 image-detail">{{content words="0"}}
 <h5><a title="{{date format="YYYY-MM-DD"}}" href="{{url}}" class="product-title">{{{title}}}</a></h5>
 </div>
     {{/foreach}} 
 {{/get}}
-    <div class="col-xs-6 col-md-2 image-detail"><p><img src="/content/images/2015/12/damiqiu.jpg" alt="大米球"></p><h5>
+    <div class="col-xs-6 col-sm-4 col-md-2 image-detail"><p><img src="/content/images/2015/12/damiqiu.jpg" alt="大米球"></p><h5>
 <a href="//www.hlifeg.com/rice-ball-picture/">大米球</a></h5>
-    </div>  <div class="col-xs-6 col-md-2 image-detail"><p><img src="/content/images/2015/12/xiaomiqiu.png" alt="小米球"></p><h5>
+    </div>  <div class="col-xs-6 col-sm-4 col-md-2 image-detail"><p><img src="/content/images/2015/12/xiaomiqiu.png" alt="小米球"></p><h5>
 <a href="//www.hlifeg.com/rice-ball-picture/">小米球</a></h5>
 </div>
     </div>
@@ -134,22 +132,24 @@
 <section id="sales">
         <div class="row inner">
             <h4>销售地图</h4>
-            <div class="sales-map col-md-4 col-xs-4 image-detail"><img width="300" src="/content/images/2016/01/71260991.jpg" alt="销售地图"></div>
-            <div class="sales-intro col-lg-offset-2 col-xs-6 col-md-6"><div>
-山东永盛开开食品厂位于打虎英雄的故乡——阳谷县，亲临京九铁路阳谷站,与聊城站在咫尺之隔，交通便利，通讯方便。<a class="more" href="/tag/provider/">更多>></a></div>
-                        <ul>
+            <div class="sales-map col-xs-12 col-sm-6 col-md-4 image-detail"><img width="300" src="/content/images/2016/01/71260991.jpg" alt="销售地图"></div>
+            <div class="sales-intro col-xs-12 col-sm-6 col-lg-offset-2 col-xs-6 col-md-8"><div>
+                <p class="intro">
+                    山东永盛开开食品厂位于打虎英雄的故乡——阳谷县，亲临京九铁路阳谷站,与聊城站在咫尺之隔，交通便利，通讯方便。<a class="more" href="/tag/provider/">更多>></a></div>
+                </p>
+                <ul>
 {{#get "posts" limit="6" filter="tag:provider" as |arti-techs pages|}}
 {{#foreach arti-techs}}
         <li><time class="date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="MM-DD"}}</time><a href="{{url}}" class="title">{{{title}}}</a></li>
     {{/foreach}}
 {{/get}}
-                        </ul>
+                </ul>
 		</div>
     </div></section>
 <section id="news">
         <div class="row inner">
             <h4>开开动态</h4>
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <ul class="news-col-ul">
                     <li  class="news-col-li">
                         <p class="mb15">产品与技术</p>
@@ -164,7 +164,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <ul class="news-col-ul">
                     <li  class="news-col-li">
                         <p class="mb15">日常掠影</p>
@@ -180,7 +180,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <ul class="news-col-ul">
                     <li  class="news-col-li">
                         <p class="mb15">媒体互联</p>
@@ -199,7 +199,7 @@
 
 <footer>
         <div class="row">
-            <div class="col-xs-12 col-md-2">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="title"><h4>产品</h4></div>
                 <ul class="link">
                     <li><a href="#1">大米球</a></li>
@@ -210,7 +210,7 @@
                     <li><a href="#6">麦仁</a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-md-2">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="title"><h4>支持中心</h4></div>
                 <ul class="link">
                     <li><a href="#1">集市攻略</a></li>
@@ -221,17 +221,17 @@
                     <li><a href="#6">风土人情</a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-md-2">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="title"><h4>横向伙伴</h4></div>
                 <ul class="link">
                     <li><a href="http://www.eycom.cn/" title="高压空气管">亿通塑胶</a></li>
                     <li><a href="http://www.252300.net/" title="阳谷生活服务">阳谷站</a></li>
                     <li><a href="http://sdhqjz.com/">海泉建材</a></li>
                     <li><a href="http://www.jygjzs.com.cn/">景阳冈酒业</a></li>
-                    <li>{{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}</li>
+                    <li class="hidden-sm hidden-xs">{{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}</li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-md-2">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="title"><h4>关于开开食品</h4></div>
                 <ul class="link">
                     <li><a href="#1">行业情形</a></li>
@@ -240,7 +240,7 @@
                     <li><a href="//www.hlifeg.com/address/">厂址</a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-md-2">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="title"><h4>关注我们</h4></div>
                 <ul class="link">
                     <li><a href="#1">手机版</a></li>
@@ -250,7 +250,7 @@
                     <li><a href="#6">科学网络</a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-md-2">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="title"><h4>联系</h4></div>
                 <ul class="link">
                     <li>电话：13６0６35６095</li>
@@ -265,6 +265,9 @@
         </div>
 </footer>
 </div>
+<nav class="navbar navbar-default navbar-fixed-top" id="FixedTopBar">
+    <a class="btn btn-lg btn-danger btn-block" href="tel:13606356095"><span class="glyphicon glyphicon-earphone"></span>即刻电话联系</a>
+</nav>
 <script src="{{asset "js/jq11m.js"}}"></script>
 <script src="{{asset "js/bootstrap.min.js"}}"></script>
 <script src="{{asset "js/onscroll.js"}}"></script>
